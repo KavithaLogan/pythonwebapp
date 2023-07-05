@@ -6,8 +6,9 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool:mycompAgent
+
+
 
 steps:
 - script: echo Hello, world!
